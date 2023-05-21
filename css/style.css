@@ -1,0 +1,234 @@
+:root {
+  --brand-color: #2196f3;
+  --main-text-color: black;
+  --text-color1:#212121;;
+  --text-color2: #757575;
+  --main-background-color: white;
+  --background-color1: #2f303a;
+  --background-color2:#E5E5E5;
+  --background-color3: #F5F4FA;
+  --main-font: Roboto, sans-serif;
+
+}
+
+body {
+  
+background-color: var(--main-background-color);
+font-family: roboto;
+color: var(--text-color1);
+font-size: 14px;
+letter-spacing: 0.03em;
+font-family: Roboto;
+}
+  
+
+header {
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+}
+
+.blue-color{
+  color: var(--brand-color);
+}
+
+.logo {
+
+color: var(--main-background-color);
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+
+}
+
+.logo-header {
+color: #000;
+font-family: 'Raleway';
+font-size: 26px;
+line-height: 1.2
+letter-spacing: 0.02em;
+
+}
+.nav-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+color: #212121;
+
+}
+
+.current {
+  color: var(--brand-color);
+}
+
+.address-link{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: white;
+}
+.address-link:hover{
+  color: var(--brand-color);
+}
+
+.contact-link {
+color: var(--text-color2);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+
+}
+
+.contact-link:hover {
+color: var(--brand-color)
+}
+
+.nav-link:hover {
+color: var(--brand-color);
+}
+
+
+a {
+text-decoration: none;
+color: var(--main-text-color)
+
+}
+
+footer {
+  background-color: var(--background-color1);
+  color:#fff;
+  font-weight:400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+
+.portfolio-button {
+background-color: var(--background-color3);
+color: var(--text-color1);
+cursor: pointer;
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.03em;
+}
+
+button:hover {
+background-color: var(--brand-color);
+color: #FFFFFF;
+cursor: pointer;
+}
+
+.order {
+background: var(--brand-color);
+color: var(--background-color3);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.06em;
+font-family: inherit;
+}
+
+
+.section-one {
+background-color: var(--background-color1);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #fff;
+
+}
+
+
+.section-two h2{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.03em;
+color: var(--text-color1)}
+
+.section-two p{
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: var(--text-color2)
+}
+
+
+.section-three {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: var(--text-color1);
+}
+
+
+.section-four {
+background-color: var(--background-color3);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: var(--text-color1);
+}
+.section-four h3{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: var(--text-color1);
+}
+
+.section-four p{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: var(--text-color2);
+}
+ 
+.section-portfolio h3{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--text-color1);
+}
+
+.section-portfolio p{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.03em;
+color: var(--text-color2);
+}
+
+
+.element-style{
+  list-style: none;
+  font-style: normal;
+  
+}
+
+.contact-link-style{
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+list-style: none;
+color: var(--text-color2)
+}
