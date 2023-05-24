@@ -42,27 +42,20 @@ ol {
 }
 
 header {
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 1.1;
-	letter-spacing: 0.02em;
 	border-bottom: 1px solid #ececec;
 }
 
 .header-wrap {
 	display: flex;
 	align-items: center;
-	justify-content: flex-start;
-	gap: 40px;
 }
-
+.nav-margin {
+	margin-left: 94px;
+}
 .navigation {
-	font-weight: 500;
-	list-style-type: none;
 	display: flex;
 	gap: 40px;
-	margin: 0;
-	padding: 0;
+	padding: 32px 0;
 }
 .section {
 	padding-top: 94px;
@@ -185,7 +178,7 @@ button:hover {
 	font-family: inherit;
 	width: 200px;
 	min-height: 50px;
-	margin: 30px auto;
+	margin: 0 auto;
 	align-items: center;
 	padding: 10px 41px 10px 42px;
 	min-width: 216px;
@@ -199,12 +192,6 @@ button:hover {
 	padding-bottom: 94px;
 }
 
-.container {
-	width: 1200px;
-	margin: 0 auto;
-	padding: 0 15px;
-}
-
 .section-one {
 	width: 696px;
 	background-color: var(--background-color1);
@@ -214,10 +201,7 @@ button:hover {
 	text-align: center;
 	letter-spacing: 0.06em;
 	color: #fff;
-	height: 600px;
-	margin: auto;
-	border-top: 1px solid var(--background-color3);
-	text-transform: uppercase;
+	margin: 0 auto;
 }
 
 .lorem-list {
@@ -245,11 +229,6 @@ button:hover {
 }
 
 .section-three {
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 1.2;
-	letter-spacing: 0.03em;
-	color: var(--text-color1);
 	padding-top: 0px;
 }
 .section-three h2 {
@@ -267,10 +246,6 @@ button:hover {
 	gap: 30px;
 }
 
-.section-three-item {
-	padding: 0 23px 0;
-}
-
 .section-four {
 	background-color: var(--background-color3);
 	font-weight: 700;
@@ -278,6 +253,8 @@ button:hover {
 	line-height: 1.2;
 	letter-spacing: 0.03em;
 	color: var(--text-color1);
+	display: flex;
+	flex-direction: row;
 }
 .section-four h2 {
 	margin-bottom: 50px;
@@ -325,10 +302,11 @@ button:hover {
 	border-top: 1px solid var(--light-color);
 	padding: 100px 0 0;
 }
-.box-buttons {
-	width: 545px;
+.portfolio-button {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	gap: 8px;
+	padding-bottom: 50px;
 }
 .section-portfolio {
 	margin: 50px auto 94px;
@@ -336,7 +314,7 @@ button:hover {
 	justify-content: space-between;
 	flex-wrap: wrap;
 	list-style-type: none;
-	padding: 0;
+	flex-direction: row;
 }
 
 .section-portfolio h3 {
@@ -361,6 +339,13 @@ button:hover {
 	flex-direction: column;
 	margin-bottom: 30px;
 	align-items: flex-start;
+}
+
+.portfolio-imgs {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	padding: 0 15px;
 }
 
 .element-style {
