@@ -150,12 +150,16 @@ button {
 .portfolio-button {
 	background-color: var(--background-color3);
 	color: var(--text-color1);
-	cursor: pointer;
 	font-family: "Roboto";
+	font-style: normal;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 26px;
+	text-align: center;
 	letter-spacing: 0.03em;
+	color: #212121;
+	background-color: #f5f4fa;
+	cursor: pointer;
 }
 
 button:hover {
@@ -248,12 +252,12 @@ button:hover {
 }
 
 .section-four {
-	background-color: var(--background-color3);
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.2;
 	letter-spacing: 0.03em;
 	color: var(--text-color1);
+	padding: 94px 0;
 }
 .section-four h2 {
 	margin-bottom: 50px;
@@ -270,7 +274,7 @@ button:hover {
 	line-height: 1.18;
 	letter-spacing: 0.03em;
 	color: var(--text-color1);
-	margin-bottom: 10px;
+	margin-bottom: 4px;
 }
 
 .section-four p {
@@ -305,7 +309,7 @@ button:hover {
 	display: flex;
 	justify-content: center;
 	gap: 8px;
-	padding-bottom: 50px;
+	margin-bottom: 50px;
 }
 .section-portfolio {
 	margin: 50px auto 94px;
@@ -344,7 +348,6 @@ button:hover {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 30px;
-	padding: 0 15px;
 }
 
 .element-style {
@@ -370,4 +373,13 @@ button:hover {
 }
 .footer-list {
 	margin-bottom: 9px;
+}
+
+.footer-item:not(:last-child) {
+	margin-bottom: 9px;
+}
+.portfolio-description {
+	padding: 20px 24px;
+	border: 1px solid black;
+	border-top: 0;
 }
