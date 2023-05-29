@@ -127,13 +127,7 @@ a {
 
 footer {
 	background-color: var(--background-color1);
-	color: #fff;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 1.7;
-	letter-spacing: 0.03em;
 	padding: 60px 0;
-	margin-bottom: 9px;
 }
 
 button {
@@ -354,7 +348,6 @@ button:hover {
 
 .element-style {
 	list-style: none;
-	font-style: normal;
 	display: flex;
 	justify-content: center;
 	gap: 8px;
@@ -377,6 +370,11 @@ button:hover {
 .footer-address {
 	margin-top: 20px;
 	font-style: normal;
+	color: #fff;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.03em;
 }
 
 .footer-item:not(:last-child) {
@@ -384,6 +382,24 @@ button:hover {
 }
 .portfolio-description {
 	padding: 20px 24px;
-	border: 1px solid var(--text-color1);
+	border: 1px solid #eeeeee;
 	border-top: 0;
+}
+.portfolio-description h3 {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 36px;
+	letter-spacing: 0.06em;
+	color: #212121;
+}
+.portfolio-description p {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 0.03em;
+	color: #757575;
 }
